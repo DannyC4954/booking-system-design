@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CRM Design - Prototype</title>
+        <link rel="stylesheet" href="./css/stylesheet.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/091d3a3550.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="./js/js.js"></script>
+    </head>
+    <body>
+        <header>
+          <nav>
+            <div class="side-nav">
+              <div class="side-nav-top">
+                <h2>Logo</h2>
+              </div>
+              <div class="side-nav-mid">
+                <a class="side-nav-item no-style-anchor" href="index.html"><i class="fas fa-home fa-2x"></i></a>
+                <a class="side-nav-item no-style-anchor" href="bookings.html"><i class="far fa-calendar-check fa-2x"></i></a>
+                <a class="side-nav-item no-style-anchor" href="messages.html"><i class="far fa-envelope fa-2x"></i></a>
+                <a class="side-nav-item no-style-anchor" href="users.html"><i class="far fas fa-users fa-2x"></i></a>
+                <a class="side-nav-item no-style-anchor" href="#"><i class="fas fa-globe-europe fa-2x"></i></a>
+                <a class="side-nav-item no-style-anchor" href="settings.html"><i class="fas fa-cogs fa-2x"></i></a>
+                <a class="side-nav-item no-style-anchor" href="#"><i class="fas fas fa-sign-out-alt fa-2x"></i></a>
+              </div>
+            </div>
+            <div class="top-nav">
+              <div class="top-left">
+                <form method="POST">
+                  <input class="top-ip" type="text" name="search-dashboard" placeholder="Search" />
+                </form>
+              </div>
+              <div class="top-middle">
+                <span id="current-date"></i></span>
+              </div>
+              <div class="top-right">
+                <span class="mr-10"><i class="far fa-bell fa-lg mr-10"></i></span>
+                <a class="no-style-anchor" href="#">
+                  <span class="mr-10"><i class="far fa-user-circle fa-lg mr-10"></i>Danny Clayton</span>
+                </a>
+              </div>
+            </div>
+          </nav>
+        </header>
+        <main>
+          <section class="main-content">
+            <h1 class="pb-20">Messages</h1>
+            <p class="pb-40">Manage incoming messages from customers.</p>
+            <div class="table-con">
+              <div class="flex-con-1 pb-40">
+                <div class="flex-left">
+                  <a class="create-btn"><i class="far fa-plus-square mr-10"></i>Create</a>
+                  <a class="select-btn"><i class="fas fa-mouse-pointer mr-10"></i>Select All</a>
+                  <label for="submit-delete" class="delete-btn"><i class="fas fa-trash-alt mr-10"></i>Delete</label>
+                  <form method="POST">
+                    <input type="hidden" id="delete-ids" name="delete-ids" value="0" />
+                    <input class="hidden" id="submit-delete" type="submit" />
+                  </form>
+                </div>
+                <div class="flex-right">
+                  <form method="POST">
+                    <input class="search-ip" type="text" name="search-input" placeholder="Search" />
+                    <input class="search-sb" type="submit" name="search-bookings" value="Search" />
+                  </form>
+                </div>
+              </div>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Select</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Mobile</th>
+                    <th>Message</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><i class="fas fa-check-square checkbox fa-lg" id="100"></i></td>
+                    <td>Danny Clayton</td>
+                    <td>dannyclayton95@gmail.com</td>
+                    <td>07714235682</td>
+                    <td>Hello, please can you do this for me?</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-check-square checkbox fa-lg" id="101"></i></td>
+                    <td>Danny Clayton</td>
+                    <td>dannyclayton95@gmail.com</td>
+                    <td>07714235682</td>
+                    <td>Hello, please can you do this for me?</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-check-square checkbox fa-lg" id="102"></i></td>
+                    <td>Danny Clayton</td>
+                    <td>dannyclayton95@gmail.com</td>
+                    <td>07714235682</td>
+                    <td>Hello, please can you do this for me?</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-check-square checkbox fa-lg" id="103"></i></td>
+                    <td>Danny Clayton</td>
+                    <td>dannyclayton95@gmail.com</td>
+                    <td>07714235682</td>
+                    <td>Hello, please can you do this for me?</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-check-square checkbox fa-lg" id="104"></i></td>
+                    <td>Danny Clayton</td>
+                    <td>dannyclayton95@gmail.com</td>
+                    <td>07714235682</td>
+                    <td>Hello, please can you do this for me?</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-check-square checkbox fa-lg" id="105"></i></td>
+                    <td>Danny Clayton</td>
+                    <td>dannyclayton95@gmail.com</td>
+                    <td>07714235682</td>
+                    <td>Hello, please can you do this for me?</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-check-square checkbox fa-lg" id="106"></i></td>
+                    <td>Danny Clayton</td>
+                    <td>dannyclayton95@gmail.com</td>
+                    <td>07714235682</td>
+                    <td>Hello, please can you do this for me?</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-check-square checkbox fa-lg" id="107"></i></td>
+                    <td>Danny Clayton</td>
+                    <td>dannyclayton95@gmail.com</td>
+                    <td>07714235682</td>
+                    <td>Hello, please can you do this for me?</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-check-square checkbox fa-lg" id="108"></i></td>
+                    <td>Danny Clayton</td>
+                    <td>dannyclayton95@gmail.com</td>
+                    <td>07714235682</td>
+                    <td>Hello, please can you do this for me?</td>
+                  </tr>
+                  <tr>
+                    <td><i class="fas fa-check-square checkbox fa-lg" id="109"></i></td>
+                    <td>Danny Clayton</td>
+                    <td>dannyclayton95@gmail.com</td>
+                    <td>07714235682</td>
+                    <td>Hello, please can you do this for me?</td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="flex-con-1 pt-20">
+                <div class="flex-left">
+                  <a class="page-btn">Previous</a>
+                  <a class="page-number">1</a>
+                  <a class="page-number">2</a>
+                  <a class="page-number">3</a>
+                  <a class="page-btn ml-10">Next</a>
+                </div>
+                <div class="flex-right">
+                  <span>Page 1 of 5</span>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+        <footer>
+        </footer>
+    </body>
+</html>

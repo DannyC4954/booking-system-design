@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+  background: #e8e8e8;
+}
+
+/* -- Helpers -- */
+.align-right {
+  text-align: right;
+}
+.align-centre {
+  text-align: center;
+}
+
+.mr-10 {
+  margin-right: 10px!important;
+}
+.mr-20 {
+  margin-right: 20px!important;
+}
+.mr-25 {
+  margin-right: 25px!important;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+.pb-20 {
+  padding-bottom: 20px;
+}
+.pb-40 {
+  padding-bottom: 40px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* -- Flex containers -- */
+.flex-con-1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.flex-left {
+  display: inline-block;
+  width: 50%;
+}
+.flex-right {
+  display: inline-block;
+  width: 50%;
+  text-align: right;
+}
+.flex-third {
+  display: inline-block;
+  width: 33%;
+}
+
+/* -- Navigation -- */
+/* Side nav */
+.side-nav {
+  position: fixed;
+  padding: 25px;
+  width: 8%;
+  height: 100%;
+  background: #fff;
+}
+.side-nav-top {
+  margin-bottom: 65px;
+}
+.side-nav-top h2 {
+  text-align: center;
+}
+.side-nav-mid {
+  text-align: center;
+}
+.side-nav-item {
+  display: block;
+  margin: 35px 0px;
+}
+
+/* Top nav */
+.top-nav {
+  display: flex;
+  padding: 25px 0px;
+  margin-left: 13%;
+  margin-bottom: 25px;
+  width: 84.5%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.top-left {
+  display: inline-block;
+  width: 33%;
+}
+.top-middle {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+.top-right {
+  display: inline-block;
+  width: 33%;
+  text-align: right;
+}
+.top-ip {
+  border: none;
+  background: #fff;
+  padding: 10px 25px;
+  width: 60%;
+}
+
+/* Default styling */
+.main-content {
+  margin-left: 13%;
+  width: 84.5%;
+  padding-bottom: 50px;
+}
+
+/* Buttons */
+.create-btn {
+  display: inline-block;
+  padding: 15px 35px;
+  color: #fff;
+  background: #052F63;
+  margin-right: 10px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+.select-btn {
+  display: inline-block;
+  padding: 15px 35px;
+  color: #fff;
+  background: #052F63;
+  margin-right: 10px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+.delete-btn {
+  display: inline-block;
+  padding: 15px 35px;
+  color: #fff;
+  background: #b32b2b;
+  margin-right: 10px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+.page-btn {
+  display: inline-block;
+  padding: 15px 35px;
+  color: #fff;
+  background: #7056b0;
+  margin-right: 10px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+.page-number {
+  margin: 0px 25px;
+}
+
+/* Colors */
+.amber-background {
+  background: #deab33!important;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    margin-bottom: 25px;
+    border-spacing: 0px;
+    border: 1px #e8e8e8 solid;
+}
+thead {
+    background: #fff;
+}
+th {
+  padding: 15px;
+  background: #7056b0;
+  color: #fff;
+  border: 1px #e8e8e8 solid;
+}
+tr {
+    background-color: unset!important;
+    border: 1px #fff solid;
+}
+tr:hover {
+    cursor: pointer;
+}
+td {
+    padding: 25px!important;
+    text-align: center;
+    background: #fff;
+    border: 1px #e8e8e8 solid;
+}
+.checkbox {
+  color: #e8e8e8;
+}
+
+.search-ip {
+  padding: 12px 35px;
+  background: #fff;
+  margin-right: 10px;
+  border: none;
+}
+.search-sb {
+  padding: 12px 35px;
+  color: #fff;
+  background: #7056b0;
+  border: none;
+  font-weight: bold;
+}
+
+/* -- Phones -- */
+@media only screen and (max-width: 767px) {
+
+}
+
+/* -- Removal classes -- */
+.no-style-anchor {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  cursor: pointer;
+}
